@@ -1,0 +1,752 @@
+{
+  "name": "hackthonequipejornadas_34e9051a-bbf0-4586-bf26-016e286f4c6f",
+  "intents": [
+    {
+      "intent": "ponto-banco_de_horas",
+      "examples": [
+        {
+          "text": "digital"
+        },
+        {
+          "text": "registro da digital"
+        },
+        {
+          "text": "ponto eletronico"
+        },
+        {
+          "text": "bater ponto"
+        },
+        {
+          "text": "banco de horas"
+        }
+      ]
+    },
+    {
+      "intent": "vt-quanto_e",
+      "examples": [
+        {
+          "text": "qual o valor do meu vale transporte?"
+        },
+        {
+          "text": "quanto recebo de vale transporte?"
+        },
+        {
+          "text": "quantos reais eu recebo no vt?"
+        }
+      ]
+    },
+    {
+      "intent": "seg_de_vida-aux_funeral",
+      "examples": [
+        {
+          "text": "condolencias"
+        },
+        {
+          "text": "caixao"
+        },
+        {
+          "text": "morte"
+        },
+        {
+          "text": "vida"
+        },
+        {
+          "text": "pesames"
+        },
+        {
+          "text": "enterro"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto-comodependentes",
+      "examples": [
+        {
+          "text": "quero adicionar um dependente no plano odontologico"
+        },
+        {
+          "text": "como coloco uma pessoa como minha dependente no plano odontologico"
+        },
+        {
+          "text": "como faco para adicionar um dependente no plano odonto"
+        },
+        {
+          "text": "como posso adicionar dependentes no plano odonto"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto-acesso",
+      "examples": [
+        {
+          "text": "como consigo acessar o aplicativo do plano odonto"
+        },
+        {
+          "text": "qual o site o plano odontologico"
+        },
+        {
+          "text": "qual o aplicativo do plano odonto"
+        },
+        {
+          "text": "como acesso o app do plano odontologico"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto-procedimentos",
+      "examples": [
+        {
+          "text": "quais procedimentos eu consigo fazer atraves do plano de odonto"
+        },
+        {
+          "text": "como posso utilizar meu plano odonto"
+        },
+        {
+          "text": "qual tratamento dentario consigo fazer"
+        },
+        {
+          "text": "que procedimentos consigo realizar pelo plano odontologico"
+        },
+        {
+          "text": "o que posso fazer pelo plano odonto"
+        }
+      ]
+    },
+    {
+      "intent": "auxilio_creche",
+      "examples": [
+        {
+          "text": "crianca"
+        },
+        {
+          "text": "escola"
+        },
+        {
+          "text": "creche"
+        },
+        {
+          "text": "filhos"
+        },
+        {
+          "text": "bebe"
+        }
+      ]
+    },
+    {
+      "intent": "plano_de_saude-app",
+      "examples": [
+        {
+          "text": "como acessar o aplicativo do plano de saude"
+        },
+        {
+          "text": "como tenho acesso ao app"
+        },
+        {
+          "text": "como eu uso o aplicativo"
+        },
+        {
+          "text": "qual aplicativo do plano de saude"
+        }
+      ]
+    },
+    {
+      "intent": "plano_de_saude-qual_o_plano",
+      "examples": [
+        {
+          "text": "que plano de saude e utilizado"
+        },
+        {
+          "text": "qual o plano de saude da wiz"
+        },
+        {
+          "text": "que plano de saude a empresa possui"
+        }
+      ]
+    },
+    {
+      "intent": "segurodevida-beneficiarios",
+      "examples": [
+        {
+          "text": "quais sao os beneficiarios do seguro de vida"
+        },
+        {
+          "text": "quem sao os beneficiarios do seguro de vida"
+        },
+        {
+          "text": "quem pode receber meu seguro de vida"
+        }
+      ]
+    },
+    {
+      "intent": "auxiliocreche-quantosdependent",
+      "examples": [
+        {
+          "text": "no auxilio creche posso por quantos dependentes"
+        },
+        {
+          "text": "quantos dependentes posso incluir no auxilio creche"
+        },
+        {
+          "text": "posso adicionar quantos filhos no auxilio creche"
+        },
+        {
+          "text": "tem limite de inclusao de dependentes no auxilio creche"
+        }
+      ]
+    },
+    {
+      "intent": "plano_de_saude-dependentes",
+      "examples": [
+        {
+          "text": "quero inserir dependentes no meu plano de saude"
+        },
+        {
+          "text": "quem pode ser meu dependente no plano de saude"
+        },
+        {
+          "text": "quem consigo incluir como dependente no plano de saude"
+        },
+        {
+          "text": "como eu adiciono dependentes no plano"
+        },
+        {
+          "text": "como funciona para incluir dependentes"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto-reembolso",
+      "examples": [
+        {
+          "text": "tem reembolso no plano odontologico"
+        },
+        {
+          "text": "o plano de odonto tem reembolso"
+        },
+        {
+          "text": "ha reembolso no plano de dentista"
+        },
+        {
+          "text": "como funciona o reembolso odonto"
+        },
+        {
+          "text": "como peco o reembolso odontologico"
+        },
+        {
+          "text": "fui no dentista como consigo o reembolso"
+        }
+      ]
+    },
+    {
+      "intent": "plano_de_saude-proced_copart",
+      "examples": [
+        {
+          "text": "quando preciso pagar a coparticipacao do plano de saude"
+        },
+        {
+          "text": "quando eu pago a coparticipacao do plano"
+        },
+        {
+          "text": "quais procedimentos eu tenho que pagar coparticipacao do plano de saude"
+        },
+        {
+          "text": "quais consultas eu pago coparticipacao"
+        },
+        {
+          "text": "eu pago coparticipacao em consultas"
+        }
+      ]
+    },
+    {
+      "intent": "vr-como_recebo",
+      "examples": [
+        {
+          "text": "como faco para ganhar meu vale refeicao?"
+        },
+        {
+          "text": "como recebo meu cartao refeicao?"
+        },
+        {
+          "text": "como ganho meu cartao vale alimentacao?"
+        },
+        {
+          "text": "como recebo meu va e vr?"
+        },
+        {
+          "text": "como eu ganho meu vale alimentacao?"
+        },
+        {
+          "text": "ganho como o vale refeicao?"
+        },
+        {
+          "text": "como eu ganho meu vr?"
+        },
+        {
+          "text": "como eu faco pra ganhar meu vr?"
+        }
+      ]
+    },
+    {
+      "intent": "vr-quando_recebe_o_vr",
+      "examples": [
+        {
+          "text": "quando cai o meu vale refeicao"
+        },
+        {
+          "text": "quando eu recebo o meu vale alimentacao"
+        },
+        {
+          "text": "meu va cai quando"
+        },
+        {
+          "text": "quando cai o vr"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto-qual_o_plano",
+      "examples": [
+        {
+          "text": "que plano odonto a empresa utiliza"
+        },
+        {
+          "text": "qual e o plano odonto usado aqui"
+        },
+        {
+          "text": "qual e o plano odontologico"
+        },
+        {
+          "text": "qual meu plano odonto"
+        }
+      ]
+    },
+    {
+      "intent": "vida_link",
+      "examples": [
+        {
+          "text": "vida link"
+        },
+        {
+          "text": "farmacia"
+        },
+        {
+          "text": "medicamento"
+        },
+        {
+          "text": "remedio"
+        }
+      ]
+    },
+    {
+      "intent": "plano_de_saude",
+      "examples": [
+        {
+          "text": "consulta"
+        },
+        {
+          "text": "amil"
+        },
+        {
+          "text": "unimed"
+        },
+        {
+          "text": "plano de saude"
+        },
+        {
+          "text": "exame"
+        },
+        {
+          "text": "sulamerica"
+        },
+        {
+          "text": "rede gama"
+        },
+        {
+          "text": "convenio"
+        },
+        {
+          "text": "hospital"
+        }
+      ]
+    },
+    {
+      "intent": "auxiliocreche-validade",
+      "examples": [
+        {
+          "text": "por quanto tempo vale o auxilio creche"
+        },
+        {
+          "text": "quais sao os requisitos para ter direito ao auxilio creche"
+        },
+        {
+          "text": "qual a idade maxima do auxilio creche"
+        },
+        {
+          "text": "qual a idade minima para ter o auxilio creche"
+        },
+        {
+          "text": "que idade meu filho deve ter para que eu utilize o auxilio creche"
+        }
+      ]
+    },
+    {
+      "intent": "gympass",
+      "examples": [
+        {
+          "text": "exercicio fisico"
+        },
+        {
+          "text": "smartfit"
+        },
+        {
+          "text": "bodytech"
+        },
+        {
+          "text": "bluefit"
+        },
+        {
+          "text": "gym"
+        },
+        {
+          "text": "malhar"
+        },
+        {
+          "text": "academia"
+        },
+        {
+          "text": "fitness"
+        }
+      ]
+    },
+    {
+      "intent": "plano_de_saude-como_e_a_copart",
+      "examples": [
+        {
+          "text": "como funciona a coparticipacao do plano de saude"
+        },
+        {
+          "text": "como e a coparticipacao do plano"
+        },
+        {
+          "text": "ha coparticipacao no plano de saude"
+        }
+      ]
+    },
+    {
+      "intent": "vr-o_que_e_vr_e_va",
+      "examples": [
+        {
+          "text": "o que significa va?"
+        },
+        {
+          "text": "o que e vale alimentacao?"
+        },
+        {
+          "text": "o que e o vale refeicao?"
+        },
+        {
+          "text": "o que e o vr?"
+        }
+      ]
+    },
+    {
+      "intent": "vr-quanto_e_o_meu_vr",
+      "examples": [
+        {
+          "text": "quanto recebo de vr"
+        },
+        {
+          "text": "qual o valor do vale refeicao"
+        },
+        {
+          "text": "qual o valor do meu va"
+        },
+        {
+          "text": "quanto eu vou receber de va e vr"
+        },
+        {
+          "text": "quanto ganho de vale alimentacao"
+        },
+        {
+          "text": "quanto recebo de vale refeicao"
+        }
+      ]
+    },
+    {
+      "intent": "vidalink-qual_desconto",
+      "examples": [
+        {
+          "text": "quanto tenho de desconto no vida link"
+        },
+        {
+          "text": "qual e o desconto ao utilizar o vida link"
+        },
+        {
+          "text": "que desconto tenho em farmacias"
+        },
+        {
+          "text": "ha desconto em farmacia"
+        }
+      ]
+    },
+    {
+      "intent": "vidalink-redecredenciada",
+      "examples": [
+        {
+          "text": "quais sao as farmacias que aceitam o vida link"
+        },
+        {
+          "text": "qual farmacia aceita o desconto"
+        },
+        {
+          "text": "qual a rede credenciada do vida link"
+        },
+        {
+          "text": "que farmacia eu consigo usar o vida link"
+        },
+        {
+          "text": "em quais farmacias tenho desconto"
+        }
+      ]
+    },
+    {
+      "intent": "vt-qual_o_desconto",
+      "examples": [
+        {
+          "text": "que desconto eu tenho por ter vale transporte?"
+        },
+        {
+          "text": "quanto eu perco por ter o vale transporte?"
+        },
+        {
+          "text": "ha desconto do vt no meu salario?"
+        },
+        {
+          "text": "qual o desconto do vt no meu salario?"
+        }
+      ]
+    },
+    {
+      "intent": "vr",
+      "examples": [
+        {
+          "text": "vr"
+        },
+        {
+          "text": "supermercado"
+        },
+        {
+          "text": "va"
+        },
+        {
+          "text": "vale refeicao"
+        },
+        {
+          "text": "refeicao"
+        },
+        {
+          "text": "comida"
+        },
+        {
+          "text": "almoco"
+        },
+        {
+          "text": "alimentacao"
+        }
+      ]
+    },
+    {
+      "intent": "vt-como_recebo",
+      "examples": [
+        {
+          "text": "como ganhar meu vale transporte?"
+        },
+        {
+          "text": "como recebo vt?"
+        },
+        {
+          "text": "como faco para receber meu vale transporte?"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto",
+      "examples": [
+        {
+          "text": "aparelho"
+        },
+        {
+          "text": "odonto"
+        },
+        {
+          "text": "odontologico"
+        },
+        {
+          "text": "dente"
+        },
+        {
+          "text": "dentista"
+        },
+        {
+          "text": "sorriso"
+        }
+      ]
+    },
+    {
+      "intent": "plano_de_saude-reembolso",
+      "examples": [
+        {
+          "text": "quero pegar o reembolso do plano de saude"
+        },
+        {
+          "text": "tenho reembolso de consultas"
+        },
+        {
+          "text": "como faco para pegar reembolso do plano de saude"
+        },
+        {
+          "text": "como funciona o reembolso do plano de saude"
+        }
+      ]
+    },
+    {
+      "intent": "auxiliocreche-valor",
+      "examples": [
+        {
+          "text": "quanto recebo de auxilio creche"
+        },
+        {
+          "text": "o auxilio creche e de quantos reais"
+        },
+        {
+          "text": "que valor recebo de auxilio creche"
+        },
+        {
+          "text": "quanto e o beneficio do auxilio creche"
+        },
+        {
+          "text": "qual o valor do auxilio creche"
+        }
+      ]
+    },
+    {
+      "intent": "vt-quando_recebe",
+      "examples": [
+        {
+          "text": "que dia recebo o meu vt?"
+        },
+        {
+          "text": "em que dia eu ganho meu vale transporte?"
+        },
+        {
+          "text": "quando eu recebo meu vale transporte?"
+        },
+        {
+          "text": "quando eu ganho o vt?"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto-copart",
+      "examples": [
+        {
+          "text": "o plano odonto tem copartipacao"
+        },
+        {
+          "text": "como funciona a coparticipacao do odonto"
+        },
+        {
+          "text": "qual seria a coparticipacao do plano odonto"
+        },
+        {
+          "text": "qual a coparticipacao do plano odontologico"
+        }
+      ]
+    },
+    {
+      "intent": "segurodevida-custo",
+      "examples": [
+        {
+          "text": "quanto pago para ter acesso ao seguro de vida"
+        },
+        {
+          "text": "qual e o custo do seguro de vida"
+        },
+        {
+          "text": "ha custo para o seguro de vida"
+        },
+        {
+          "text": "que valor pago para ter acesso ao seguro de vida"
+        }
+      ]
+    },
+    {
+      "intent": "geral-quais_sao_os_beneficios",
+      "examples": [
+        {
+          "text": "quais sao meus beneficios?"
+        },
+        {
+          "text": "qual meu beneficio?"
+        },
+        {
+          "text": "beneficios"
+        },
+        {
+          "text": "que beneficios eu tenho?"
+        }
+      ]
+    },
+    {
+      "intent": "vt",
+      "examples": [
+        {
+          "text": "cptm"
+        },
+        {
+          "text": "vt"
+        },
+        {
+          "text": "vale transporte"
+        },
+        {
+          "text": "metro"
+        },
+        {
+          "text": "dftrans"
+        },
+        {
+          "text": "onibus"
+        }
+      ]
+    },
+    {
+      "intent": "plano_odonto-quemdependentes",
+      "examples": [
+        {
+          "text": "qual familiar consigo adicionar no plano odonto"
+        },
+        {
+          "text": "quem pode ser dependente no plano odontologico"
+        },
+        {
+          "text": "quem da minha familia pode ser dependente no plano odonto"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "fe81be37-a624-4790-a98a-f7048d0d096f",
+  "dialog_nodes": [],
+  "workspace_id": "fe81be37-a624-4790-a98a-f7048d0d096f",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
